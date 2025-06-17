@@ -1,0 +1,172 @@
+.requirements-container {
+    background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+    border-radius: 24px;
+    padding: 25px;
+    max-width: 300px;
+    width: 100%;
+    height: fit-content;
+    font-size: 1rem;
+    color: #333;
+    background-color: lightblue;
+}
+
+/* Form Container */
+
+.backOfHouse {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+form {
+    margin-bottom: 15px;
+}
+form label {
+    color: rgba(255, 255, 255, 0.9);
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+form input[type="radio"] {
+  margin-right: 5px;
+  transform: scale(1.2);
+  accent-color: #4CAF50;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+form select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 5px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+form:last-of-type {
+    margin-bottom: 20px;
+}
+/* Error */
+.error {
+    background: linear-gradient(to bottom, #e74c3c, #c0392b);
+    color: white;
+}
+
+/* Collect Tips Button */
+.collectBtn {
+    width: 100%;
+    margin-top: 20px;
+    height: 60px;
+    background-color: green;
+    font-weight: 600;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.collectBtn:hover {
+    background-color: lightgreen;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(76, 175, 80, 0.4);
+}
+.collectBtn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px  rgba(76, 175, 80, 0.4);
+}
+
+/* Tip List Container */
+
+.tipsList-container {
+    background-color: white;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    min-width: 300px;
+    max-width: 350px;
+    height: fit-content;
+}
+.tipsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.tips {
+    background-color: #f0f8ff;
+    margin-bottom: 12px;
+    padding: 15px;
+    border-radius: 12px;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+}
+.tips:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.deleteTips {
+    background: none;
+    border: none;
+    color: #e74c3c;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+.deleteTips:hover {
+    color: #c0392b;
+    transform: scale(1.1);
+}
+.tipsTotal {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #4b6cb7;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.deleteAllBtn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to bottom, #e74c3c, #c0392b);
+    color:white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 8px rgba(231, 76, 60, 0.3);
+}
+.deleteAllBtn:hover {
+    background: linear-gradient(to bottom, #e57373, #d32f2f);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(231, 76, 60, 0.4);
+}
+.deleteAllBtn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(231, 76, 60, 0.3);
+}
