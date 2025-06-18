@@ -68,7 +68,7 @@ A modern, responsive React application designed specifically for cannabis dispen
 - **Styling:** Pure CSS with CSS Grid & Flexbox
 - **Icons:** Lucide React
 - **Build Tool:** Vite
-- **State Management:** React useState & useEffect
+- **State Management:** React useState, useEffect & useRef
 - **Data Persistence:** Browser localStorage
 - **Responsive Design:** CSS Media Queries
 
@@ -221,7 +221,7 @@ Individual Tip = (Total Tips × 0.15) ÷ Total Team Hours × Individual Hours
 
 ## 📞 Contact
 
-**Developer**: [Your Name]
+**Developer**: Alexander Robaczewski
 - GitHub: [@Arobaczewski](https://github.com/Arobaczewski)
 - LinkedIn: [Alexander Robaczewski](https://linkedin.com/in/alexander-robaczewski)
 - Email: alexander.robaczewski@gmail.com
