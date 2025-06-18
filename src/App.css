@@ -1,10 +1,9 @@
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: flex-start;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
     padding: 20px;
     width: 100%;
     max-width: 1200px;
@@ -14,6 +13,7 @@
 
 .calculator-container {
     border-radius: 24px;
+    width: 100%;
     max-width: 500px;
     overflow: hidden;
     display: flex;
@@ -37,6 +37,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
     padding: 25px;
+    justify-items: center;
 }
 
 .numberBtns {
@@ -100,6 +101,7 @@
     align-items: center;
     transition: all 0.2s ease;
     box-shadow: 0 4px 8px rgba(255, 106, 0, 0.3);
+    grid-column: 2;
 }
 .clearDisplay:hover {
     background: linear-gradient(to bottom, #ffb340, #ff7e20);
